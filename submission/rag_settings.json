@@ -1,0 +1,20 @@
+{
+  "chunk_size": 1500,
+  "chunk_overlap": 200,
+  "top_k": 7,
+  "include_exts": [
+    ".docx"
+  ],
+  "exclude_dirs": [
+    ".git",
+    ".idea",
+    ".mypy_cache",
+    ".pytest_cache",
+    "__pycache__",
+    "chroma_storage",
+    "env",
+    "venv"
+  ],
+  "persist_dir": "C:\\Users\\Олегсандр\\Desktop\\mcp настройка в LM Studio\\chroma_storage",
+  "default_collection_name": "project_rag"
+}
